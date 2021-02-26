@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>HTML FORM</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1> APPLICATION FORM</h1>
+
+    <form action="" autocomplete="on">
+  
+    <div class="radio-container">
+        <h2>SEX</h2>
+       <div class="radio-buttons">
+        <label for="MALE">MALE</label>
+        <input type="radio" name="SEX" id="MALE" value="MALE">
+        <label for="FEMALE">FEMALE</label>
+        <input type="radio" name="SEX" id="FEMALE" value="FEMALE">
+        <label for="RATHER NOT SAY">RATHER NOT SAY</label>
+        <input type="radio" name="SEX" id="RATHER NOT SAY" value="RATHER NOT SAY">
+       </div>
+    </div>
+
+    <div class="checkbox">
+        <label for="MALE">MALE</label>
+        <input type="checkbox" name="SEX" id="MALE" value="MALE">
+        <label for="FEMALE">FEMALE</label>
+        <input type="checkbox" name="SEX" id="FEMALE" value="FEMALE">
+        <label for="RATHER NOT SAY">RATHER NOT SAY</label>
+        <input type="checkbox" name="SEX" id="RATHER NOT SAY" value="RATHER NOT SAY">
+        <br>
+        <br>
+        <label for="">NAME</label>
+        <input type="text" id="NAME" autofocus>
+        <br>
+        <br>
+        <label for="">AGE</label>
+        <input type="text" id="AGE" required maxlength="2" size="2">
+        <br>
+        <br>
+        <label for="">PASSWORD</label>
+        <input type="PASSWORD" id="PASSWORD">
+        <br>
+        <br>
+        <label for="">RECONFIRM PASSWORD</label>
+        <input type="RECONFIRM PASSWORD" id="RECONFIRM PASSWORD" readonly>
+        <br>
+        <br>
+        <label for="">DATE</label>
+        <input type="date" id="date" MAX="1952-12-02">
+        <br>
+        <br>
+        <label for="">FILES</label>
+        <input type="FILES" id="FILES" multiple>
+        <br>
+        <br>
+        <label for="">COUNTRY CODE</label>
+        <input type="text" id="COUNTRY CODE" pattern="+234">
+<br>
+<br>
+<label for="">POINTS</label>
+<input type="NUMBER" id="POINTS" step="4">
+<br>
+<br>
+<select name="" id="">
+    <option value="">NO</option>
+    <option value="">YES</option>
+    <option value="">INDIFFERENT</option>
+</select>
+<br>
+
+    <a type="submit" class="button"> SUBMIT</a>
+    </div>
+    </form>
+</body>
+</html>

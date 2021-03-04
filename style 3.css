@@ -1,0 +1,121 @@
+body{
+background-color: #f5deb3;
+position: relative;    
+}
+.button{
+    background-color: indigo;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    width: 130px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button:hover{
+    color: #f5deb3;
+    cursor: pointer;
+}
+.select{
+    width: 24%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #292e44;
+    border-radius: 20px;
+    box-shadow: 19px 10px 30px rgba(0,0,0,0.1);
+    padding: 5px;
+}
+.topnav{
+    padding: 0px 2px;
+    display: flex;
+    justify-content: space-around;
+}
+.topnav ul{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.select1 img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 0px 100px;
+}
+.select2 h2{
+text-align: center;
+font-size: 35px;
+color: white;
+margin: 0 auto;
+}
+.select2 h3{
+text-align: center;
+font-size: 18px;
+padding: 0px 0px;
+color: white;
+margin: 0 auto;
+}
+.select2 h4{
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    width: 250px;
+    align-items: center;
+}
+.select2 button{
+    background-color: #e83e8c ;
+    color: white;
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+    display: flex;
+    margin: 0 auto;
+    padding: 5px 30px;
+    border-radius: 20px;
+}
+.select2 button:hover{
+    cursor: pointer;
+   background-color:  #6f42c1;
+}
+.select3{
+    color: white;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ padding: 20px;
+}
+.select3 :hover{
+    cursor: pointer;
+}
+.select3 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+background-color: rebeccapurple;
+width: 65px;
+height: 65px;
+font-size: 30px;
+font-weight: bold;
+}
+.select3 span box1{
+background-color: salmon;
+}
+.select4{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 18px;
+    padding: 0px;
+    justify-content: space-around;
+    height: 30px;
+    align-items: center;
+    width: 260px;
+    margin: 0 auto;
+}

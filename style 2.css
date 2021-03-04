@@ -61,6 +61,7 @@ background-color: white;
 margin: 0 auto;
 box-shadow: 19px 10px 30px rgba(0,0,0,0.1);
 height: 100%;
+border-radius: 15px;
 }
 .general_container{
 width: 800px;
